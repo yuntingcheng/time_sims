@@ -77,7 +77,6 @@ class make_Icube_cib():
                 Snu_arr = np.sum(Snu_arr, axis=0)
                 Scube_arr[ix,iy,:] = Snu_arr
         
-       
         return Scube_arr / dOmega
 
 def _binedge_vectors(line_class):
